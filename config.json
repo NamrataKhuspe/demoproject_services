@@ -1,0 +1,22 @@
+{
+    "dbcore": {
+        "connectionLimit": 50,
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "Namrata@1234",
+        "database": "demo_project"
+    },
+    "enable_encryprtion": false,
+    "server_port": 8080,
+    "run": "127.0.0.1",
+    "dir": {
+        "data": "D:/Axis project/data/"
+    },
+    "SMTP_Configuration": {
+        "Password": "Namukhuspe@1234",
+        "from_email": "namrata.khuspe18@gmail.com",
+        "To": "namrata.khuspe18@gmail.com",
+        "Bcc": "",
+        "subj": ""
+    }
+}
