@@ -43,6 +43,7 @@ module.exports.Register = async (req, reply) => {
 
 module.exports.Login = async (req, reply) => {
     try {
+        console.log("inside login");
         var req = req.payload;
         var getencryptedPass = await dao.loginDetails(req.email);
         console.log("getencryptedPass -- > ", getencryptedPass);
