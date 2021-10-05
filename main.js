@@ -20,7 +20,7 @@ async function start() {
         await server.register({
             plugin: require('hapi-cors'),
             options: {
-                origins: ['http://localhost:4200']
+                origins: ['http://localhost:4200', 'https://newngapp-project.herokuapp.com/']
             }
         });
         await server.start();
