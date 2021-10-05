@@ -1,0 +1,38 @@
+{
+  "name": "demoproject_services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "buffer": "^6.0.3",
+    "hapi": "^18.1.0",
+    "hapi-cors": "^1.0.3",
+    "html-pdf": "^3.0.1",
+    "json-2-csv": "^3.14.4",
+    "json2xls": "^0.1.2",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.6.5",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2",
+    "xlsx": "^0.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamrataKhuspe/demoproject_services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NamrataKhuspe/demoproject_services/issues"
+  },
+  "homepage": "https://github.com/NamrataKhuspe/demoproject_services#readme",
+  "engines": {
+    "node": "14.17.6"
+  }
+}
